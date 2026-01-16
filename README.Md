@@ -29,12 +29,12 @@ The project demonstrates a layered architecture commonly used in real-world ente
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/SREENU42/online-bookstore-backend.git
+git clone https://github.com/SREENU42/Online_BookStore_JavaBackend.git
 
 
 
 2.Navigate to backend:
-cd Online_Book_Store/backend
+cd Online_BookStore_JavaBackend
 
 3.Run using Maven:
 mvn spring-boot:run
