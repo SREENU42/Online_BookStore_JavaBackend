@@ -20,7 +20,7 @@ It allows users to **Add, View, Update, and Delete books** via API endpoints.
 - Java 17+
 - Spring Boot
 - Maven
-- (Optional) H2 / MySQL database
+- MySQL database
 - Postman for API testing
 
 ## How to Run
