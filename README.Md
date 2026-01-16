@@ -1,7 +1,8 @@
-# Online Book Store - Backend (Java 17, Spring Boot, Maven, MySQL, Postman)
+# Online Book Store - Backend (Java 17, Spring Boot,Spring Data JPA, Maven, MySQL, Postman)
 
-This is a **Spring Boot REST API** project for managing an online book store.  
-It allows users to **Add, View, Update, and Delete books** via API endpoints.
+The Online Book Store is a backend RESTful web application developed using Spring Boot and Spring Data JPA.
+It provides APIs to manage books, including creating, retrieving, updating, and deleting book records.
+The project demonstrates a layered architecture commonly used in real-world enterprise applications.
 
 ## Features
 
@@ -43,3 +44,6 @@ GET http://localhost:8080/books
 POST http://localhost:8080/books
 PUT http://localhost:8080/books/{id}
 DELETE http://localhost:8080/books/{id}
+
+
+
