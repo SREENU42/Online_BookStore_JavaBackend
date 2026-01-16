@@ -1,4 +1,4 @@
-# Online Book Store - Backend (Spring Boot)
+# Online Book Store - Backend (Java 17, Spring Boot, Maven, MySQL, Postman)
 
 This is a **Spring Boot REST API** project for managing an online book store.  
 It allows users to **Add, View, Update, and Delete books** via API endpoints.
@@ -29,3 +29,17 @@ It allows users to **Add, View, Update, and Delete books** via API endpoints.
 
 ```bash
 git clone https://github.com/SREENU42/online-bookstore-backend.git
+
+
+
+2.Navigate to backend:
+cd Online_Book_Store/backend
+
+3.Run using Maven:
+mvn spring-boot:run
+
+4.Test APIs using Postman:
+GET http://localhost:8080/books
+POST http://localhost:8080/books
+PUT http://localhost:8080/books/{id}
+DELETE http://localhost:8080/books/{id}
